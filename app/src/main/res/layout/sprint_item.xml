@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginTop="12.5dp"
+    android:layout_marginBottom="12.5dp"
+    app:cardCornerRadius="25dp"
+    android:id="@+id/parent_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"/>
+
+    <View
+        android:id="@+id/rectangle3"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/rectangle3" />
+
+    <TextView
+        android:id="@+id/textViewSprint"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/rectangle3"
+        android:layout_alignLeft="@+id/rectangle3"
+        android:layout_alignTop="@+id/rectangle3"
+        android:layout_alignEnd="@+id/rectangle3"
+        android:layout_alignRight="@+id/rectangle3"
+        android:layout_alignBottom="@+id/rectangle3"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="12dp"
+        android:text="Sprint"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="27dp"
+        android:layout_alignStart="@+id/rectangle3"
+        android:layout_alignLeft="@+id/rectangle3"
+        android:layout_alignTop="@+id/rectangle3"
+        android:layout_alignEnd="@+id/rectangle3"
+        android:layout_alignRight="@+id/rectangle3"
+        android:layout_alignBottom="@+id/rectangle3"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/calendar" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="27dp"
+        android:layout_alignStart="@+id/rectangle3"
+        android:layout_alignLeft="@+id/rectangle3"
+        android:layout_alignTop="@+id/rectangle3"
+        android:layout_alignEnd="@+id/rectangle3"
+        android:layout_alignRight="@+id/rectangle3"
+        android:layout_alignBottom="@+id/rectangle3"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="97dp"
+        android:background="@drawable/group1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="56dp"
+        android:layout_height="21dp"
+        android:layout_alignStart="@+id/rectangle3"
+        android:layout_alignLeft="@+id/rectangle3"
+        android:layout_alignTop="@+id/rectangle3"
+        android:layout_alignEnd="@+id/rectangle3"
+        android:layout_alignRight="@+id/rectangle3"
+        android:layout_alignBottom="@+id/rectangle3"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="60dp"
+        android:text="Tanggal"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="81dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/rectangle3"
+        android:layout_alignLeft="@+id/rectangle3"
+        android:layout_alignTop="@+id/rectangle3"
+        android:layout_alignEnd="@+id/rectangle3"
+        android:layout_alignRight="@+id/rectangle3"
+        android:layout_alignBottom="@+id/rectangle3"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp"
+        android:text="Kel Tertinggi"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textViewTanggal"
+        android:layout_width="77dp"
+        android:layout_height="19dp"
+        android:layout_alignStart="@+id/rectangle3"
+        android:layout_alignLeft="@+id/rectangle3"
+        android:layout_alignTop="@+id/rectangle3"
+        android:layout_alignEnd="@+id/rectangle3"
+        android:layout_alignRight="@+id/rectangle3"
+        android:layout_alignBottom="@+id/rectangle3"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="60dp"
+        android:text="Tanggal"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textViewKelompok"
+        android:layout_width="74dp"
+        android:layout_height="19dp"
+        android:layout_alignStart="@+id/rectangle3"
+        android:layout_alignLeft="@+id/rectangle3"
+        android:layout_alignTop="@+id/rectangle3"
+        android:layout_alignEnd="@+id/rectangle3"
+        android:layout_alignRight="@+id/rectangle3"
+        android:layout_alignBottom="@+id/rectangle3"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="100dp"
+        android:text="Kelompok"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/buttonDetails"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/rectangle3"
+        android:layout_alignLeft="@+id/rectangle3"
+        android:layout_alignTop="@+id/rectangle3"
+        android:layout_alignEnd="@+id/rectangle3"
+        android:layout_alignRight="@+id/rectangle3"
+        android:layout_alignBottom="@+id/rectangle3"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/button3"
+        android:text="Details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+</androidx.cardview.widget.CardView>
